@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+    <info>
+        <update version="2.19.23">
+            <file name="sources.xml" url="fill out later"></file>
+        </update>
+    </info>
+    <element name="FFXIV Handbook" type="Source">
+        <description>
+            <![CDATA[<p>Lmao idk what this is</p>]]>
+        </description>
+        <setters>
+            <set name="abbreviation">FFXIV</set>
+            <set name="url">https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv</set>
+            <set name="image">https://img.finalfantasyxiv.com/lds/promo/h/B/moIN9-t3w5_RCknv_auiD4KIqA.jpg</set>
+            <set name="author" abbreviation="SS" url="https://www.reddit.com/r/FFXIVxDnD/comments/116ls02/long_overdue_updates_from_soren_feb_19_2023/">SilentSoren</set>
+            <set name="release">20230219</set>
+        </setters>
+    </element>
+</elements>

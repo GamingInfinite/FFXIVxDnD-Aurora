@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+    <info>
+        <name>Viera</name>
+        <update version="2.19.23">
+            <file name="race-viera.xml" url="fill in later"></file>
+        </update>
+    </info>
+    <element name="Viera" type="Race" source="FFXIV Handbook" id="ID_RACE_VIERA">
+        <description>
+            <p class="flavor">The Viera may begin as part of the Wood, but it is not the only end that we may choose.</p>
+            <p>The Viera are a beautiful and mysterious folk, shrouded in mystery as many spend most of their lives in the Woodlands they call home. Their tall, slender bodies adorned with rabbit-like traits creates an air of grace amongst them. Long, high angled feet require high-heeled shoes and dextrous clawed fingers help to draw a striking image of the Viera.</p>
+            <h4>Separate Paths</h4>
+            <p>The Viera are a race of both males and females, but outside of necessary meetings to keep their race continuing onwards and taking the male children who have reached adulthood, they lead separate lives. The males of the Viera live secretive, lonely lives in which they shun everyone, even their own kin to fully pursue their sacred role as a Wood-warder. The Wood-warders patrol the Golmore Jungle and ensure no outsiders reach their former homes. That isn't to say the women are defenseless though, as the female Viera are as capable as the men, but turn their attention to defend their young and homes.</p>
+            <h4>People of the Wood</h4>
+            <h4>Of Jungles and Forests</h4>
+            <h4>The Green Word</h4>
+            <h4>Viera Names</h4>
+            <p>Viera names are often short in nature, normally only 4 characters long. The letter "J" is used as a vowel in their tongue creating confusion at times for those who are not familiar with the Viera language. Despite close attention to purity in their bloodlines, the Viera do not worry about lineage and do not have family names.</p>
+            <span class="feature">Male Viera Names:</span>Atan, Morn, Tjln, Frjn
+            <span class="feature">Female Viera Names:</span>Fran, Jote, Mjrn, Kryn, Ktjn
+            <h4>Viera Traits</h4>
+            <p>will fill out later</p>
+        </description>
+        <sheet display="false"></sheet>
+        <setters>
+            <set name="names" type="male">Atan, Morn, Tjln, Frjn</set>
+            <set name="names" type="female">Fran, Jote, Mjrn, Kryn, Ktjn</set>
+            <set name="height" modifier="2d10">5'10"</set>
+            <set name="weight" modifier="1d4">90 lb.</set>
+        </setters>
+        <rules>
+            <stat name="dexterity" value="2"></stat>
+            <stat name="innate speed" value="35" bonus="base"></stat>
+            <grant type="Size" id="ID_SIZE_MEDIUM"></grant>
+            <grant type="Language" id="ID_LANGUAGE_COMMON"></grant>
+            <grant type="Language" id="ID_LANGUAGE_VIERA"></grant>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_MASK_OF_THE_WILD"></grant>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_LUCKY"></grant>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SPEAK_WITH_SMALL_BEASTS"></grant>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_VIERA_SUBRACE"></grant>
+        </rules>
+    </element>
+    <element name="Viera Subrace" type="Racial Trait" source="FFXIV Handbook" id="ID_RACIAL_TRAIT_VIERA_SUBRACE">
+        <description>
+            <p>Fix later</p>
+        </description>
+        <sheet display="false"></sheet>
+        <rules>
+            <select type="Sub Race" name="Viera Subrace" supports="Viera"></select>
+        </rules>
+    </element>
+    <element name="Rava" type="Sub Race" source="FFXIV Handbook" id="ID_SUB_RACE_RAVA_VIERA">
+        <supports>Viera</supports>
+        <description>
+            <p>fix later</p>
+        </description>
+        <sheet display="false"></sheet>
+        <rules>
+            <stat name="wisdom" value="1"></stat>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_POWERFUL_PRESENCE"></grant>
+        </rules>
+    </element>
+    <element name="Powerful Presence" type="Racial Trait" source="FFXIV Handbook" id="ID_RACIAL_TRAIT_POWERFUL_PRESENCE">
+        <description>
+            <p>You have proficiency in the Intimidation skill</p>
+        </description>
+        <sheet display="false">
+            <description>You have proficiency in the Intimidation skill</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION"></grant>
+        </rules>
+    </element>
+    <element name="Veena" type="Sub Race" source="FFXIV Handbook" id="ID_SUB_RACE_VEENA_VIERA">
+        <supports>Viera</supports>
+        <description>
+            <p>fix later</p>
+        </description>
+        <sheet display="false"></sheet>
+        <rules>
+            <stat name="intelligence" value="1"></stat>
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_APPROACHABLE"></grant>
+        </rules>
+    </element>
+    <element name="Approachable" type="Racial Trait" source="FFXIV Handbook" id="ID_RACIAL_TRAIT_APPROACHABLE">
+        <description>
+            <p>You have proficiency in the Persuasion skill</p>
+        </description>
+        <sheet display="false">
+            <description>You have proficiency in the Persuasion skill</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION"></grant>
+        </rules>
+    </element>
+</elements>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+    <info>
+        <name>Languages</name>
+        <update version="2.19.23">
+            <file name="languages.xml" url="fill in later"></file>
+        </update>
+    </info>
+    <element name="Viera" type="Language" source="FFXIV Handbook" id="ID_LANGUAGE_VIERA">
+        <supports>Standard</supports>
+        <description>
+            <p>Typically spoken by the Viera</p>
+        </description>
+        <setters>
+            <set name="standard">true</set>
+            <set name="speakers">Viera</set>
+            <set name="script">Vieran</set>
+        </setters>
+    </element>
+</elements>

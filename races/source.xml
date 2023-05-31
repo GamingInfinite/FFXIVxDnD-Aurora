@@ -5,7 +5,7 @@
             <file name="sources.xml" url="https://raw.githubusercontent.com/GamingInfinite/FFXIVxDnD-Aurora/main/races/source.xml"></file>
         </update>
     </info>
-    <element name="FFXIV Handbook" type="Source">
+    <element name="FFXIV Handbook" type="Source" source="FFXIV" id="ID_FFXIV_SOURCE_RACES">
         <description>
             <![CDATA[<p>Lmao idk what this is</p>]]>
         </description>

@@ -3,7 +3,7 @@
     <info>
         <name>Viera</name>
         <update version="2.19.23">
-            <file name="race-viera.xml" url="fill in later"></file>
+            <file name="race-viera.xml" url="https://raw.githubusercontent.com/GamingInfinite/FFXIVxDnD-Aurora/main/races/race-viera.xml"></file>
         </update>
     </info>
     <element name="Viera" type="Race" source="FFXIV Handbook" id="ID_RACE_VIERA">

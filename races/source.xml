@@ -2,7 +2,7 @@
 <elements>
     <info>
         <update version="2.19.23">
-            <file name="sources.xml" url="fill out later"></file>
+            <file name="sources.xml" url="https://raw.githubusercontent.com/GamingInfinite/FFXIVxDnD-Aurora/main/races/source.xml"></file>
         </update>
     </info>
     <element name="FFXIV Handbook" type="Source">

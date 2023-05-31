@@ -5,12 +5,12 @@
         <description>This is content created by SilentSoren</description>
         <author url="https://www.reddit.com/r/FFXIVxDnD/comments/116ls02/long_overdue_updates_from_soren_feb_19_2023/">SilentSoren, ported by VoidBaroness</author>
         <update version="2.19.23">
-            <file name="ffxiv.index" url="https://raw.githubusercontent.com/GamingInfinite/FFXIVxDnD-Aurora/main/ffxiv.xml"></file>
+            <file name="ffxiv.index" url="https://raw.githubusercontent.com/GamingInfinite/FFXIVxDnD-Aurora/main/ffxiv.index"></file>
         </update>
     </info>
     <files>
-        <file name="races.xml" url="https://raw.githubusercontent.com/GamingInfinite/FFXIVxDnD-Aurora/main/races.xml"></file>
-        <file name="classes.xml" url="https://raw.githubusercontent.com/GamingInfinite/FFXIVxDnD-Aurora/main/classes.xml"></file>
+        <file name="races.xml" url="https://raw.githubusercontent.com/GamingInfinite/FFXIVxDnD-Aurora/main/races.index"></file>
+        <file name="classes.xml" url="https://raw.githubusercontent.com/GamingInfinite/FFXIVxDnD-Aurora/main/classes.index"></file>
         <file name="languages.xml" url="https://raw.githubusercontent.com/GamingInfinite/FFXIVxDnD-Aurora/main/races/languages.xml"></file>
     </files>
 </index>

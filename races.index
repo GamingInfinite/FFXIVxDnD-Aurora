@@ -5,7 +5,7 @@
         <description>SilentSoren's FFXIV Races as balanced for D&amp;D 5e</description>
         <author url="https://www.reddit.com/r/FFXIVxDnD/comments/116ls02/long_overdue_updates_from_soren_feb_19_2023/">SilentSoren, ported by VoidBaroness</author>
         <update version="2.19.23">
-            <file name="races.xml" url="https://raw.githubusercontent.com/GamingInfinite/FFXIVxDnD-Aurora/main/races.xml"></file>
+            <file name="races.index" url="https://raw.githubusercontent.com/GamingInfinite/FFXIVxDnD-Aurora/main/races.index"></file>
         </update>
     </info>
     <files>
